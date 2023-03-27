@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(240, 240, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     display: flex;
@@ -21,7 +22,9 @@ header .container ul{
 a{
     text-decoration: none;
     color: antiquewhite;
+    text-shadow: 10px 10px 10px black;
 }
+
 header .container li{
     margin: 3px 5px;
     
@@ -51,7 +54,8 @@ header .container li{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
+    margin-bottom: 30PX;
 
 }
 .nav-bar{
@@ -60,4 +64,37 @@ header .container li{
     justify-content: center;
     background-color: darkslategray;
     padding: 10px;
+}
+.nav-bar li:hover{
+    scale: 1.1;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    padding: 5%;
+    border: solid 1px;
+}
+
+section article .text{
+    width: 35%;
+
+}
+section article .text p{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+section article figure{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    width: 65%;
+}
+section article figure img{
+    max-width: 95%;
 }
