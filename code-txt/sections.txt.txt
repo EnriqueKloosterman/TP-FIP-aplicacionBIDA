@@ -1,0 +1,11 @@
+    <section>
+      <article>
+        <div class="text">
+          <p>
+          </p>
+        </div>
+        <figure>
+          <img src="" alt="" />
+        </figure>
+      </article>
+    </section>
